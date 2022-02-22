@@ -1,0 +1,26 @@
+body{
+  height: 97vh;
+  background-color: #000;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 95vh;
+  flex-wrap: wrap;
+}
+.card__items{
+  background-color: red;
+  padding: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .5s;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+}
+hr{
+  border: 1px solid white;
+}
